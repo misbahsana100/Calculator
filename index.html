@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+  
+
+  <table class="caculator-body">
+    <tr name="calculator">
+       <td> <input  placeholder="0" type="text" size="40px" name="result" id="result" ></td>
+    </tr>
+          <tr class="buttn" >
+            
+            <td>    <button class="btn" onclick="result.value=Math.sin(result.value)" >sin</button></td>
+                <td>    <button class="btn" onclick="result.value=Math.cos(result.value)">cos</button></td>
+                <td>     <button class="btn" onclick="result.value=Math.tan(result.value)">tan</button></td>
+                <td>  <button class="btn " onclick="result.value=Math.log(result.value)"><b>log</b></button></td>
+                
+                <td>     <button class="btn" onclick="result.value=Math.pow(result.value,2)">x <sup>2</sup> </button></td>
+                <td>       <button class="btn" onclick="result.value=Math.pow(result.value,3)">x <sup>3</sup></button></td>
+                <td>   <button class="btn" onclick="result.value=Math.pow(result.value,1/2)"> &radic; </button></td>
+                <td>   <button class="btn" onclick="result.value=Math.pow(result.value,1/3)">&#8731; </button></td>
+                <td>   <button class="btn" onclick="getBtn('1')">1 </button></td>
+                <td>  <button class="btn" onclick="getBtn('2')">2 </button></td>
+                <td>   <button class="btn" onclick="getBtn('3')">3</button></td>
+               <td>    <button class="btn" onclick="getBtn('+')">+</button></td>
+               <td>    <button class="btn" onclick="getBtn('4')">4</button></td>
+               <td>    <button class="btn" onclick="getBtn('5')">5</button></td>
+               <td>    <button class="btn" onclick="getBtn('6')"><b>6 </b></button></td>
+               <td>    <button class="btn" onclick="getBtn('-')"><b>- </b></button></td>
+               <td>    <button class="btn" onclick="getBtn('7')"><b>7 </b></button></td>
+               <td>    <button class="btn" onclick="getBtn('8')"><b>8 </b></button></td>
+               <td>    <button class="btn" onclick="getBtn('9')"><b>9 </b></button></td>
+               <td>    <button class="btn" onclick="getBtn('*')"><b>&times; </b></button></td>
+               <td>     <button class="btn" onclick="getBtn('(')"><b>&#40; </b></button></td>
+               <td>    <button class="btn" onclick="getBtn(')')"><b>&rpar;</b></button></td>
+               <td>    <button class="btn" onclick="getBtn('0')"><b>0</b></button></td>
+               <td>    <button class="btn" onclick="getBtn('.')"><b>.</b></button></td>
+               <td>    <button class="btn" onclick="getBtn('/')"><b>/</b></button></td>
+               <td>    <button class="btn" onclick="percent()"><b>%</b></button></td>
+               <td>    <button class="btn " onclick="backspace()">&#x2421; </button></td>
+             
+                  <td>       <button class="btn" onclick="clearResult()">C</button></td>
+             
+               
+          </tr>
+          <tr class="last">
+            
+            <td>  <button class="btn p" onclick="result.value=Math.round(result.value)">Rnd</button></td>
+
+            <td>  <button  class="btn s " onclick="getResult()"><b>=</b></button></td>
+           
+          </tr>
+     
+         
+        </table>
+
+      
+</body>
+</html>

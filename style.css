@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* outline: none;
+    background-color: aqua; */
+   
+}
+body{
+    background: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg);
+}
+table{
+    border: 6px;
+    background: black;
+    padding:7px 5px;
+    text-align: center;
+  padding-bottom: 0px;
+  box-shadow: 0px 0px 27px #0d5569;
+  border-radius: 10px;
+  /* margin-top: -90px; */
+}
+.caculator-body{
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
+border-radius: 10px;
+}
+ input[type="text"]{
+    padding: 10px;
+    border-radius: 8px, 8px, 0,0;
+    font-size: 20px;
+    color:rgb(255, 81, 0);
+    width: 450px;
+    height: 81px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    
+    background: black;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: cursive;
+    margin-top: #dedede;
+    border-bottom: 2px solid #cc4014;
+}
+
+.buttn{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+ 
+
+
+}
+.buttn button{
+   background-color: black;
+   /* padding: 10px 20px; */
+   /* width: 50px; */
+   /* height: 50px; */
+   margin-bottom: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: cursive;
+    background: 00803 ;
+    border: none;
+    color: #d23200;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn{
+    padding: 7px;
+    font-size: 12px;
+    color: rgb(255, 81, 0);
+}
+ button:hover{
+    background: rgb(0, 255, 85);
+}
+
+.last{
+background: #000;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+     background: 00803 ;
+     border: none;
+     color: #d23200;
+     border-radius: 6px;
+     cursor: pointer;
+     display: grid;
+     grid-template-columns: auto auto ;
+     
+}
+.s {
+    width: 80%;
+    font-size: 22px;
+    
+}
+.p {
+    width: 80%;
+    font-size: 21.5px;
+    /* padding: 10px; */
+    
+}
+
+
+.last button{
+    background: #000;
+}
+.s:hover{
+    background: #fa0101;
+    color: white;
+}
+.p:hover{
+    background: #fa0101;
+    color: white;
+}
